@@ -106,12 +106,12 @@ class DataBase {
     }
 }
 var studentsAndTeachers = DataBase()
-studentsAndTeachers.addStudentsInArray(students: Students(name: "Илон", surname: "Маск", age: 15, grade: 9, gradePointAverage: 5, id: 1))
-studentsAndTeachers.addStudentsInArray(students: Students(name: "Билл", surname: "Гейтс", age: 14, grade: 8, gradePointAverage: 3, id: 2))
-studentsAndTeachers.addStudentsInArray(students: Students(name: "Марк", surname: "Цукерберг", age: 10, grade: 4, gradePointAverage: 5, id: 3))
-studentsAndTeachers.addTeachersInArray(teachers: Teachers(name: "Исаак", surname: "Ньютон", age: 35, rating: 10, id: 1))
-studentsAndTeachers.addTeachersInArray(teachers: Teachers(name: "Альберт", surname: "Эйнштейн", age: 45, rating: 8, id: 2))
-studentsAndTeachers.addTeachersInArray(teachers: Teachers(name: "Никола", surname: "Тесла", age: 30, rating: 5, id: 3))
+studentsAndTeachers.addStudentsInArray(students: Students(name: "Илон", surname: "Маск", age: 15, grade: 9, gradePointAverage: 5, id: 111))
+studentsAndTeachers.addStudentsInArray(students: Students(name: "Билл", surname: "Гейтс", age: 14, grade: 8, gradePointAverage: 3, id: 222))
+studentsAndTeachers.addStudentsInArray(students: Students(name: "Марк", surname: "Цукерберг", age: 10, grade: 4, gradePointAverage: 5, id: 333))
+studentsAndTeachers.addTeachersInArray(teachers: Teachers(name: "Исаак", surname: "Ньютон", age: 35, rating: 10, id: 1010))
+studentsAndTeachers.addTeachersInArray(teachers: Teachers(name: "Альберт", surname: "Эйнштейн", age: 45, rating: 8, id: 2020))
+studentsAndTeachers.addTeachersInArray(teachers: Teachers(name: "Никола", surname: "Тесла", age: 30, rating: 5, id: 3030))
 studentsAndTeachers.countOfStudents()
 studentsAndTeachers.showStudentInfo()
 studentsAndTeachers.countOfTeachers()
