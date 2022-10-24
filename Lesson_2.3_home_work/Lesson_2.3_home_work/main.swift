@@ -116,8 +116,8 @@ studentsAndTeachers.countOfStudents()
 studentsAndTeachers.showStudentInfo()
 studentsAndTeachers.countOfTeachers()
 studentsAndTeachers.showTeacherInfo()
-studentsAndTeachers.deleteStudentsFromArray(id: 1)
-studentsAndTeachers.deleteTeachersFromArray(id: 1)
+studentsAndTeachers.deleteStudentsFromArray(id: 111)
+studentsAndTeachers.deleteTeachersFromArray(id: 3030)
 
 
 
